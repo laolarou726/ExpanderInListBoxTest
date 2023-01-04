@@ -10,7 +10,19 @@
         <ListBox.ItemTemplate>
             <DataTemplate>
                 <Expander Header="Test">
-                    <TextBlock Text="{Binding}"/>
+					<StackPanel>
+						<TextBlock Padding="0, 20" Text="{Binding}"/>
+                        <TextBlock Padding="0, 20" Text="{Binding}"/>
+                        <TextBlock Padding="0, 20" Text="{Binding}"/>
+                        <TextBlock Padding="0, 20" Text="{Binding}"/>
+						<TextBlock Padding="0, 20" Text="{Binding}"/>
+                        <TextBlock Padding="0, 20" Text="{Binding}"/>
+                        <TextBlock Padding="0, 20" Text="{Binding}"/>
+                        <TextBlock Padding="0, 20" Text="{Binding}"/>
+                        <TextBlock Padding="0, 20" Text="{Binding}"/>
+                        <TextBlock Padding="0, 20" Text="{Binding}"/>
+                        <TextBlock Padding="0, 20" Text="{Binding}"/>
+					</StackPanel>
                 </Expander>
             </DataTemplate>
         </ListBox.ItemTemplate>
